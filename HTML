@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Projeto.css" media="screen">
+    <link rel="stylesheet" type="text/js" href="Projeto.js" media="screen">
+  <title>Formulário de Inscrição</title>>
+</head>
+<body>
+  <h1>Formulário de Inscrição</h1>
+  <form id="registration-form">
+    <div class="form-group">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div class="form-group">
+      <label for="confirm-password">Confirmar Senha:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+    </div>
+    <div class="form-group">
+      <label for="bio">Biografia:</label>
+      <textarea id="bio" name="bio" rows="4"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="gender">Gênero:</label>
+      <select id="gender" name="gender">
+        <option value="male">Masculino</option>
+        <option value="female">Feminino</option>
+        <option value="other">Outro</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="terms">
+        <input type="checkbox" id="terms" name="terms" required>
+        Concordo com os termos e condições
+      </label>
+    </div>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="Projeto.js"></script>
+</body>
+</html>
